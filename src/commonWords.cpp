@@ -132,7 +132,8 @@ char **commonWords(char *str1, char *str2)
 			result = (char **)realloc(result, sizeof(char *)*(++NoOfCommonStrings));
 			result[NoOfCommonStrings - 1] = string;
 		}
-	}	return result;
+	}	
+	return result;
 }
 
 /*
