@@ -16,6 +16,8 @@ NOTES: If there are no common words return NULL.
 
 #define SIZE 31
 
+//METHOD 1:
+
 struct node
 {
 	struct node *Children;
@@ -138,6 +140,7 @@ char **commonWords(char *str1, char *str2)
 
 /*
 METHOD 2:
+
 struct node
 {
 	struct node *Children;
